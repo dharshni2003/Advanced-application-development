@@ -1,0 +1,24 @@
+.chart-container
+{
+    position:absolute;
+    width: 800px;
+    margin: 0 auto;
+    left:300px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    
+}
+.graph-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .graph-container h2 {
+    text-align: center;
+  }
+  
+  .graph-container .recharts-responsive-container {
+    margin: auto;
+  }
+  

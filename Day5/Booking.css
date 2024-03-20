@@ -1,0 +1,636 @@
+.ven{
+    position:absolute;
+    height:70px;
+    width:1200px;
+    left:20px;
+    top:100px;
+    background-color:black;
+}
+.hall
+{
+  position: absolute;
+  text-align:center;
+  padding-bottom:2rem;
+  color:white;
+  text-transform:uppercase;
+  font-size:4rem;
+  top:100px;
+  left:530px;
+}
+.containerbook
+{
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:200px;
+}
+.boxvenue10
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:230px;
+    left:50px;
+    transition:1s;
+}
+.boxvenue10 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxvenue10:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxvenue11
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:230px;
+    left:450px;
+    transition:1s;
+}
+.boxvenue11 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxvenue11:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxvenue12
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:230px;
+    left:900px;
+    transition:1s;
+}
+.boxvenue12 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxvenue12:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxvenue10 p{
+    position:absolute;
+    color: black;
+    left:100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxvenue11 p{
+    position:absolute;
+    color: black;
+    left:150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxvenue12 p{
+    position:absolute;
+    color: black;
+    left:90px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxvenue10 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxvenue11 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxvenue12 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxvenue10 p2
+{
+    position:absolute;
+    top:180px;
+    color: white;
+    font-weight: bold;
+}
+.boxvenue11 p2
+{
+    position:absolute;
+    top:180px;
+    color: white;
+    font-weight: bold;
+}
+.boxvenue12 p2
+{
+    position:absolute;
+    top:180px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.dec{
+    position:absolute;
+    height:70px;
+    width:1200px;
+    left:20px;
+    top:550px;
+    background-color:black;
+}
+.decoration
+{
+    position: absolute;
+  text-align:center;
+  padding-bottom:2rem;
+  color:white;
+  text-transform:uppercase;
+  font-size:3rem;
+  top:560px;
+  left:480px;
+}
+.containerdeco
+{
+    position:absolute;
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:350px;
+}
+.boxdeco10
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:230px;
+    left:50px;
+    transition:1s;
+}
+.boxdeco10 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxdeco10:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxdeco11
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:230px;
+    left:500px;
+    transition:1s;
+}
+.boxdeco11 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxdeco11:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxdeco12
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:230px;
+    left:900px;
+    transition:1s;
+}
+.boxdeco12 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxdeco12:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxdeco10 p{
+    position:absolute;
+    color: black;
+    left:100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxdeco11 p{
+    position:absolute;
+    color: black;
+    left:90px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxdeco12 p{
+    position:absolute;
+    color: black;
+    left:80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxdeco10 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxdeco11 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxdeco12 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+
+.eve{
+    position:absolute;
+    height:70px;
+    width:1200px;
+    left:20px;
+    top:1000px;
+    background-color: black;
+}
+.events
+{
+  position: absolute;
+  text-align:center;
+  padding-bottom:2rem;
+  color:white;
+  text-transform:uppercase;
+  font-size:3rem;
+  top:1010px;
+  left:450px;
+}
+.containereve
+{
+    position:absolute;
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:350px;
+}
+.boxeve10
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:700px;
+    left:50px;
+    transition:1s;
+}
+.boxeve10 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxeve10:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxeve11
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:700px;
+    left:460px;
+    transition:1s;
+}
+.boxeve11 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxeve11:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxeve12
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:700px;
+    left:900px;
+    transition:1s;
+}
+.boxeve12 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxeve12:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxeve10 p{
+    position:absolute;
+    color: black;
+    left:60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxeve11 p{
+    position:absolute;
+    color: black;
+    left:70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxeve12 p{
+    position:absolute;
+    color: black;
+    left:10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.food{
+    position:absolute;
+    height:70px;
+    width:1200px;
+    left:20px;
+    top:1500px;
+    background-color: black;
+}
+.foodmenu
+{
+  position: absolute;
+  text-align:center;
+  padding-bottom:2rem;
+  color:white;
+  text-transform:uppercase;
+  font-size:3rem;
+  top:1510px;
+  left:470px;
+}
+.containerfood
+{
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:200px;
+}
+.boxfood10
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:1600px;
+    left:50px;
+    transition:1s;
+}
+.boxfood10 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxfood10:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxfood11
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:1600px;
+    left:450px;
+    transition:1s;
+}
+.boxfood11 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxfood11:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxfood12
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:1600px;
+    left:900px;
+    transition:1s;
+}
+.boxfood12 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxfood12:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxfood10 p{
+    position:absolute;
+    color: black;
+    left:100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxfood11 p{
+    position:absolute;
+    color: black;
+    left:30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxfood12 p{
+    position:absolute;
+    color: black;
+    left:10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxfood10 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxfood11 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxfood12 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.add{
+    position:absolute;
+    height:70px;
+    width:1200px;
+    left:20px;
+    top:1900px;
+    background-color: black;
+}
+.addon
+{
+  position: absolute;
+  text-align:center;
+  padding-bottom:2rem;
+  color:white;
+  text-transform:uppercase;
+  font-size:3rem;
+  top:1910px;
+  left:470px;
+}
+.containeradd
+{
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:200px;
+}
+.boxadd10
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:2000px;
+    left:50px;
+    transition:1s;
+}
+.boxadd10 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxadd10:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxadd11
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:2000px;
+    left:450px;
+    transition:1s;
+}
+.boxadd11 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxadd11:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxadd12
+{
+    position:absolute;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:2000px;
+    left:900px;
+    transition:1s;
+}
+.boxadd12 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.boxadd12:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.boxadd10 p{
+    position:absolute;
+    color: black;
+    left:40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxadd11 p{
+    position:absolute;
+    color: black;
+    left:140px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxadd12 p{
+    position:absolute;
+    color: black;
+    left:50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxadd10 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxadd11 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+.boxadd12 p1
+{
+    position:absolute;
+    top:210px;
+    font-weight: bold;
+}
+
+ 

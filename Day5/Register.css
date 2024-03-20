@@ -1,0 +1,73 @@
+.img reg
+{
+  position:absolute;
+  
+}
+.entire {
+  position: absolute;
+  left:150px;
+  top:20px;
+    width: 350px;
+    height:450px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #3a1e1e;
+    background-color: rgba(255, 255, 255, 0.441);;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(76, 63, 63, 0.58);
+    
+  }
+  
+  .heading {
+  
+    text-align: center;
+    margin-bottom: 25px;
+    
+  }
+
+  .text30 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .values {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .value {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type='email'],
+  input[type='password']
+  input[type='text']
+  input[type='number']
+  input[type='password']
+   {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .div a{
+    text-decoration:none;
+  color:#fff;
+  }
