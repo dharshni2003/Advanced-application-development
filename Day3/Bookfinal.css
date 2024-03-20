@@ -1,0 +1,51 @@
+.booking-container {
+  position:absolute;
+  left:400px;
+  top:100px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f0f080;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(14, 2, 2, 0.632);
+    
+  }
+  
+  
+  .booking-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .booking-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='date'],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: row; /* Changed from column to row */
+    align-items: center; /* Align items horizontally */
+  }
+  
+  .checkbox-group input[type='checkbox'] {
+    margin-right: 10px; /* Add margin between checkboxes */
+  }
+  
