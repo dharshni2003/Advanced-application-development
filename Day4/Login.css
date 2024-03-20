@@ -1,0 +1,86 @@
+.img
+{
+  position:relative;
+  
+}
+
+.img2
+{
+  position:absolute;
+  top:50px;
+  left:700px;
+  
+}
+.Container {
+  position: absolute;
+  left:150px;
+  top:50px;
+    width: 350px;
+    height:350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #f7f2f2;
+    background-color: rgba(0, 0, 0, 0.532);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px  rgba(240, 233, 233, 0.58);
+  }
+ 
+  .header {
+  
+    text-align: center;
+    margin-bottom: 25px;
+    
+  }
+
+  .text29 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #eee0e6;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .input {
+    display: flex;
+    align-items: center;
+  }
+  .input1
+  {
+    position:absolute;
+   font-size: 18px;
+   top:290px;
+   font-weight: bold;
+   right:80px;
+   color: #f0f3f5;
+  }
+  input[type='email'],
+  input[type='password'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .input1 a{
+    text-decoration:none;
+  color:#fff;
+  }
+  
