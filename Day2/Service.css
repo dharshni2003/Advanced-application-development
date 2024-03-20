@@ -1,0 +1,258 @@
+.topic
+{
+  text-align:center;
+  padding-bottom:2rem;
+  color:black;
+  text-transform:uppercase;
+  font-size:4rem;
+}
+.topic span{
+    color:red;
+    text-transform:uppercase;
+}
+.gallaryboc10
+{
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:200px;
+}
+.gallary10
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:200px;
+    left:50px;
+    transition:1s;
+    border: 3px solid black;
+}
+.gallary11
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:200px;
+    left:350px;
+    transition:1s;
+    border: 3px solid black;
+}
+.gallary12
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:200px;
+    left:650px;
+    transition:1s;
+    border: 3px solid black;
+}
+.gallary13
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:200px;
+    left:950px;
+    transition:1s;
+    border: 3px solid black;
+}
+.gallary10 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+    border: black;
+}
+
+.gallary11 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+
+.gallary12 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+
+.gallary13 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.set
+{
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:200px;
+}
+.set1
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:500px;
+    left:50px;
+    transition:1s;
+    border: 3px solid black;
+}
+.set2
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:500px;
+    left:350px;
+    transition:1s;
+    border: 3px solid black;
+}
+.set3
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:500px;
+    left:650px;
+    transition:1s;
+    border: 3px solid black;
+}
+.set4
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:500px;
+    left:950px;
+    transition:1s;
+    border: 3px solid black;
+}
+.set1 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+    border: black;
+}
+
+.set2 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+
+.set3 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+
+.set4 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+.bacc
+{
+    width:90%;
+    padding:20px;
+    margin:100px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    top:200px;
+}
+.bacc1
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:800px;
+    left:50px;
+    transition:1s;
+    border: 3px solid black;
+}
+.bacc2
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:800px;
+    left:350px;
+    transition:1s;
+    border: 3px solid black;
+}
+.bacc3
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:800px;
+    left:650px;
+    transition:1s;
+    border: 3px solid black;
+}
+.bacc4
+{
+    position:absolute;
+    width:250px;
+    padding: auto;
+    margin:0 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.813);
+    top:800px;
+    left:950px;
+    transition:1s;
+    border: 3px solid black;
+}
+.bacc1 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+    border: black;
+}
+
+.bacc2 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+
+.bacc3 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
+
+.bacc4 img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+}
